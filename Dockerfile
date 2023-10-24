@@ -2,9 +2,9 @@ FROM node:buster-slim
 
 WORKDIR /app
 
-COPY . .
+COPY . /app
 
-RUN npm install node -y 
+RUN npm install
 
 EXPOSE 5000
 
